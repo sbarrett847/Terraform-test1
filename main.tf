@@ -33,5 +33,5 @@ resource "azurerm_subnet" "SB-subnettest1" {
   name                 = "SB-Terraform-Test1-subnet"
   resource_group_name  = azurerm_resource_group.rgtest1.name
   virtual_network_name = azurerm_virtual_network.vnettest1.name
-  address_prefixes     = ["10.0.2.0/24"]
+  address_prefixes     = ["10.0.3.0/24"]
 }
